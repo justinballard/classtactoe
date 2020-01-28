@@ -1,13 +1,14 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import "./Game.js";
+import Game from "./Game.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        <Game />
+        
         <p>We gonna play some Tic Tac Toe with React!</p>
         <a
           className="App-link"

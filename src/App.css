@@ -13,6 +13,12 @@
   }
 }
 
+#game-board {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #282c34;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
