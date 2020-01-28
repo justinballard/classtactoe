@@ -9,15 +9,8 @@ function App() {
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <Game />
         
-        <p>We gonna play some Tic Tac Toe with React!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>Let's Play Tic Tac Bro!</p>
+        
       </header>
     </div>
   );

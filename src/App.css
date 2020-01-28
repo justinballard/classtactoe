@@ -13,11 +13,26 @@
   }
 }
 
-#game-board {
+.board {
+  height: auto;
+  width: auto;
   display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #282c34;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  background-color: #DDDDDD;
+  padding: 10px;
+  margin: 50px;
 }
+.square {
+  height: auto;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 
 .App-header {
   background-color: #282c34;

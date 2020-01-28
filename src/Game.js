@@ -1,5 +1,4 @@
 import React from "react";
-import GameTitle from "./GameTitle.js";
 import Board from './Board';
 
 /*export default class Game extends React.Component {
